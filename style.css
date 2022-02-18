@@ -1,0 +1,130 @@
+header{
+    background-color: #18b7be;
+}
+
+#h2{
+    color: #f9f7f0 ;
+    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Russo One', sans-serif
+}
+
+
+.banner{
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(7,42,64,0.5),rgba(7,42,64,0.7)),
+    url(https://oqoyz1y45eq3fjitpwe0w2k8-wpengine.netdna-ssl.com/wp-content/uploads/2007/08/DSC4048-1024x682.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative ;
+    
+}
+
+.textbox{
+    width: 90%;
+    color: #f9f7f0 ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#navbar_top{
+    background-color: #18b7be;
+}
+
+
+/* fueture sectin */
+
+#feutures{
+    height: 1500px;
+    width: 2000px;
+    background-color: #f9f7f0;
+}
+
+.heading{
+    color: #178ca4;
+}
+
+span{
+    color: #072a40;
+}
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem auto;
+    width: 90%;
+}
+
+.box{
+    height: 20rem;
+    width: 25rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 0.5rem #072a40;
+
+}
+
+.images{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.info{
+    position: absolute;
+    top: 0 ; left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(7,42,64,0.7);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    color: #f9f7f0;
+    transform: scale(0);
+    transition-property: all; 
+    transition-timing-function: cubic-bezier(#072a40);
+    transition-delay: 1;
+    transition-duration: 500ms;
+
+
+
+}
+
+
+
+.contaier{
+    background-color: #f9f7f0;
+}
+
+.ft{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.3rem;
+    border-bottom: .2rem solid #18b7be;
+    border-top: .2rem solid #18b7be;
+}
+
+.images:hover + .info  {
+
+    transform: scale(1);
+    pointer-events: none;
+
+}
+        
+
+
+
+
