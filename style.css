@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
 header{
     background-color: #18b7be;
 }
@@ -38,7 +47,7 @@ header{
 /* fueture sectin */
 
 #feutures{
-    height: 1500px;
+    height: 1200px;
     width: 2000px;
     background-color: #f9f7f0;
 }
@@ -93,7 +102,7 @@ span{
     color: #f9f7f0;
     transform: scale(0);
     transition-property: all; 
-    transition-timing-function: cubic-bezier(#072a40);
+
     transition-delay: 1;
     transition-duration: 500ms;
 
@@ -126,5 +135,62 @@ p{
         
 
 
+.card1:hover {
+    background:#178ca4;
+    border:1px solid #178ca4;
+    }
+
+    .card1:hover .list-group-item{
+    background:#178ca4 !important
+    }
 
 
+
+
+    .card2:hover {
+    background:#178ca4;
+    border:1px solid #178ca4;
+    }
+
+    .card2:hover .list-group-item{
+    background:#178ca4 !important
+    }
+
+
+    .card3:hover {
+    background:#178ca4;
+    border:1px solid #178ca4;
+    }
+
+    .card3:hover .list-group-item{
+    background:#178ca4 !important
+    }
+
+
+    .card:hover .btn-outline-dark{
+    color: #f9f7f0;
+    background:#072a40;
+    }
+
+#pricing{
+    background-color:#072a40 ;
+    min-height: 100vh;
+
+}
+
+#price{
+    color: #f9f7f0;
+    
+}
+
+
+
+.container-fluid{
+    margin-top: 10%;
+}
+
+#contact{
+    background-color: #18b7be;
+    min-height: 100vh;
+    width: 100vw;
+}
